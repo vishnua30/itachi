@@ -1,0 +1,167 @@
+/**************************tag selectors****************/
+body{
+
+  font-family: 'Merriweather', serif;
+
+  margin: 0;
+  text-align: center;
+}
+
+p{
+  color: #40514E;
+  letter-spacing: 1.5px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;       /*100% = 16px  =1em  => 90px = 562.5 = 5.625em*/
+  color: #b30000;
+  /*line-height: 2;*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+
+  color: #810000;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #b30000;
+}
+.points{
+  font-family: 'Montserrat', sans-serif;
+  color:  #df9f9f;
+}
+hr{
+  border-style: dotted none none;
+  border-color:  #c2c2d6;
+  border-width: 5px;
+  margin: 100px auto;
+  height:0;
+  width:4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************class selectors********************/
+
+
+
+.top-container{
+
+  background-image: url('https://images7.alphacoders.com/119/1195975.png');
+  background-color: #EEEBDD;
+  text-align: left;
+
+  padding:7% 15%;
+  position: relative;
+
+}
+.middle-container{
+padding-top: 50px;
+
+padding-bottom: 5px;
+background-color: #F9F9F9;
+
+}
+.mid-container2{
+  padding: 3% 2%;
+  background-color: #DD5353;
+
+
+}
+.bottom-container{
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.pro{
+  text-decoration: underline;
+}
+
+.pro-pic{
+  width: 15%;
+
+}
+.contact-me{
+  width: 40%;
+  margin: auto;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  padding-top: 1rem;
+}
+.skill-image1{
+  width:25%;
+  float: left;/*to avoid wrapping of any part add a clear property to undo the float to that property*/
+  margin-right: 40px;
+
+}
+.skill-image2{
+  width:25%;
+  float: right;
+  margin-left: 40px;
+}
+.skill-image3{
+  width:30%;
+  float: left;/*to avoid wrapping of any part add a clear property to undo the float to that property*/
+  margin-right: 40px;
+
+}
+.Mangekyou-Sharingan{
+  width: 50%;
+  margin: 10% auto;
+  padding-bottom: 1rem;
+}
+.MS{
+  width:35%;
+  float: left;
+  /* padding: 1% 5% 30%; */
+}
+.ms-heading{
+  padding-top: 25%;
+}
+
+.copyright{
+  color: #d1d1e0;
+  margin: 20px auto 10px;
+  font-size: 0.75em;
+}
+.footer-link{
+
+    color: #c9ad83;
+    font-size: 0.875rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+  color: #b9955f;
+}
+
+/*id se;ectors*/
+
+#ph2{
+  color:  #f7d4d4;
+}
